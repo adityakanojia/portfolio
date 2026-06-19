@@ -1,13 +1,13 @@
 // ─── Site Data ────────────────────────────────────────────────────────────────
 
 export const SITE = {
-  name: "Aditya Kanojia",
-  title: "Aditya Kanojia — Software Development Engineer",
+  name: "Aditya Kanozia",
+  title: "Aditya Kanozia — Software Development Engineer",
   description:
     "I design and build scalable systems, robust architectures, and data-intense applications that solve complex engineering problems.",
   url: "https://www.adityakanozia.com",
   email: "adityakanozia@gmail.com",
-  phone: "+91 98765 43210",
+  phone: "+91 9667369447",
   linkedin: "https://linkedin.com/in/adityakanozia",
   github: "https://github.com/adityakanozia",
   twitter: "@adityakanozia",

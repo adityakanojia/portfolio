@@ -54,13 +54,13 @@ export function Navbar() {
             href="#home"
             onClick={(e) => handleNavClick(e, "#home")}
             className="flex items-center gap-2.5 group"
-            aria-label="Aditya Kanojia - Home"
+            aria-label="Aditya Kanozia - Home"
           >
             <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-[var(--accent)] text-[var(--accent-fg)] font-bold text-sm tracking-tight transition-all duration-200 group-hover:scale-105">
               AK
             </div>
             <span className="font-semibold text-[var(--text)] text-sm tracking-tight hidden sm:block">
-              Aditya Kanojia
+              Aditya Kanozia
             </span>
           </Link>
 
@@ -131,7 +131,7 @@ export function Navbar() {
                 <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-[var(--accent)] text-[var(--accent-fg)] font-bold text-xs">
                   AK
                 </div>
-                <span className="font-semibold text-sm">Aditya Kanojia</span>
+                <span className="font-semibold text-sm">Aditya Kanozia</span>
               </div>
               <button
                 aria-label="Close menu"

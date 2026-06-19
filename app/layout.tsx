@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     "microservices architecture",
     "data-intensive applications",
     "scalable backend systems",
-    "Aditya Kanojia",
+    "Aditya Kanozia",
     "SDE",
   ],
   authors: [{ name: SITE.name, url: SITE.url }],

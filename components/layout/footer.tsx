@@ -31,7 +31,7 @@ export function Footer() {
               <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-[var(--accent)] text-[var(--accent-fg)] font-bold text-sm">
                 AK
               </div>
-              <span className="font-semibold text-[var(--text)]">Aditya Kanojia</span>
+              <span className="font-semibold text-[var(--text)]">Aditya Kanozia</span>
             </div>
             <p className="text-sm text-[var(--muted)] leading-relaxed max-w-sm mb-6">
               Full Stack Developer & Digital Solutions Consultant helping businesses build trust
@@ -163,7 +163,7 @@ export function Footer() {
           </p>
           <p className="text-xs text-[var(--muted)]">
             Designed & built by{" "}
-            <span className="text-[var(--accent)] font-medium">Aditya Kanojia</span>
+            <span className="text-[var(--accent)] font-medium">Aditya Kanozia</span>
           </p>
         </div>
       </div>

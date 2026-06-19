@@ -40,7 +40,7 @@ export function AboutSection() {
 
             <div className="space-y-4 text-[var(--muted)] leading-relaxed mb-8">
               <p>
-                I&apos;m Aditya Kanojia — a Software Development Engineer (SDE). I specialize in designing and building scalable systems, data-intense applications, and robust APIs that power complex business logic.
+                I&apos;m Aditya Kanozia — a Software Development Engineer (SDE). I specialize in designing and building scalable systems, data-intense applications, and robust APIs that power complex business logic.
               </p>
               <p>
                 My core tech stack revolves around Next.js, Java, Spring Boot, and Microservices architecture. Whether it&apos;s a high-performance frontend or a distributed backend processing massive datasets, I focus on writing clean, efficient, and maintainable code.
