@@ -5,7 +5,7 @@ export const SITE = {
   title: "Aditya Kanojia — Software Development Engineer",
   description:
     "I design and build scalable systems, robust architectures, and data-intense applications that solve complex engineering problems.",
-  url: "https://adityakanozia.com",
+  url: "https://www.adityakanozia.com",
   email: "adityakanozia@gmail.com",
   phone: "+91 98765 43210",
   linkedin: "https://linkedin.com/in/adityakanozia",
