@@ -8,60 +8,60 @@ const caseStudySteps = [
     id: "problem",
     icon: AlertTriangle,
     label: "The Problem",
-    title: "A law firm losing clients to its own website",
+    title: "Scaling a fast-growing tech startup platform",
     content:
-      "Law firm websites are notoriously bad. They're cluttered, slow, and built by agencies that prioritize aesthetics over conversion. Potential clients would arrive on the site and leave within seconds — not because the firm wasn't excellent, but because the website didn't communicate that excellence.",
-    stat: { value: "73%", label: "of users judge credibility by website design" },
+      "A tech startup needed a production-ready platform capable of rapid iteration without sacrificing performance. They were struggling with monolithic bottlenecks, and the separation of their headsup-frontend and headsup-backend required a robust, scalable architecture to handle thousands of concurrent users.",
+    stat: { value: "10x", label: "expected user growth in year one" },
     accentColor: "text-red-500",
   },
   {
     id: "research",
     icon: FlaskConical,
     label: "Research",
-    title: "Understanding what legal clients actually need",
+    title: "Understanding modern scalable architectures",
     content:
-      "I analyzed competitor law firm sites, studied conversion data, and interviewed potential clients. The findings were clear: visitors needed to quickly understand the firm's expertise, see social proof, and find it easy to take action. Trust signals and clarity beat aesthetics every time.",
-    stat: { value: "3s", label: "average time to make a trust judgment" },
+      "I analyzed their existing data flow and user interaction models. The findings pointed towards a decoupled architecture where a lightning-fast frontend could seamlessly communicate with a highly concurrent backend API, ensuring smooth performance even under heavy load.",
+    stat: { value: "<50ms", label: "target API response time" },
     accentColor: "text-blue-500",
   },
   {
     id: "strategy",
     icon: Target,
     label: "Strategy",
-    title: "Clarity, authority, and a clear path to action",
+    title: "Decoupled Next.js and FastAPI architecture",
     content:
-      "We restructured the information architecture to answer three questions immediately: Who are you? What do you do? Why should I trust you? Every page was designed around a single conversion goal — getting qualified prospects to book a consultation.",
-    stat: { value: "5x", label: "improvement in conversion funnel clarity" },
+      "We restructured the system into clear micro-services. The headsup-frontend would leverage Next.js for SSR and SEO, while the headsup-backend would use FastAPI (Python) for asynchronous, high-performance data processing, backed by PostgreSQL and Redis for caching.",
+    stat: { value: "100%", label: "type safety across the stack" },
     accentColor: "text-amber-500",
   },
   {
     id: "design",
     icon: Palette,
     label: "Design Decisions",
-    title: "Premium, not flashy",
+    title: "Clean, responsive, and intuitive",
     content:
-      "The design language was deliberately restrained. Dark typography on white, generous whitespace, a muted color palette with a single amber accent. No stock photos, no clip art. The goal was to feel like a top-tier firm — confident enough in its work that it doesn't need to shout.",
-    stat: { value: "100%", label: "custom UI components" },
+      "The UI was designed to be highly responsive and intuitive. We focused on a clean, modern aesthetic with a dark mode option, utilizing Tailwind CSS for rapid styling and Framer Motion for subtle, engaging micro-animations that don't compromise performance.",
+    stat: { value: "60fps", label: "smooth animations and transitions" },
     accentColor: "text-purple-500",
   },
   {
     id: "development",
     icon: Code2,
     label: "Development",
-    title: "Next.js 15, TypeScript, performance-first",
+    title: "Full-stack integration and deployment",
     content:
-      "Built with the App Router, Server Components wherever possible, and Client Components only where interactivity was required. Framer Motion for scroll-triggered animations. Optimized images, fonts, and code splitting throughout. The result was a Lighthouse score of 98 across all categories.",
-    stat: { value: "98", label: "Lighthouse performance score" },
+      "Development involved setting up strict CI/CD pipelines for both the Next.js frontend and FastAPI backend. We implemented robust authentication, real-time data synchronization using WebSockets, and optimized database queries to ensure the platform could scale effortlessly.",
+    stat: { value: "0", label: "downtime during deployments" },
     accentColor: "text-emerald-500",
   },
   {
     id: "outcome",
     icon: TrendingUp,
     label: "Outcome",
-    title: "A website that works as hard as the lawyers",
+    title: "A robust platform ready for thousands of users",
     content:
-      "Within the first month of launch, the firm reported a measurable increase in qualified consultation requests. The bounce rate dropped significantly. Clients began mentioning the website as the reason they chose to reach out. The site now ranks on the first page for key local search terms.",
-    stat: { value: "40%", label: "increase in consultation inquiries" },
+      "The platform launched successfully and seamlessly handled the initial surge of users. The startup was able to iterate rapidly on new features without technical debt holding them back. The architecture proved resilient, fast, and exactly what investors were looking for.",
+    stat: { value: "1000s", label: "of concurrent users handled smoothly" },
     accentColor: "text-teal-500",
   },
 ];
@@ -81,20 +81,19 @@ export function CaseStudySection() {
             id="case-study-heading"
             className="text-3xl sm:text-4xl font-bold text-[var(--text)] tracking-tight mb-4"
           >
-            Building a Law Firm&apos;s Digital Foundation
+            Building HeadsUp: A Scalable Tech Startup Platform
           </h2>
           <p className="text-[var(--muted)] max-w-2xl mx-auto">
-            How I took a respected but digitally invisible law firm and built a website that became
-            their most effective business development tool.
+            How I architected and developed a full-stack platform capable of rapid iteration and handling thousands of concurrent users.
           </p>
 
           {/* Project meta */}
           <div className="mt-8 grid grid-cols-2 md:flex md:flex-row md:items-center justify-center gap-4 md:gap-8 px-6 md:px-8 py-5 rounded-2xl border border-[var(--border)] bg-[var(--surface)] w-full max-w-3xl mx-auto">
             {[
-              { label: "Client", value: "Law Firm" },
+              { label: "Client", value: "HeadsUp" },
               { label: "Duration", value: "3 Weeks" },
-              { label: "Stack", value: "Next.js + TS" },
-              { label: "Score", value: "98 Lighthouse" },
+              { label: "Stack", value: "Next.js + FastAPI" },
+              { label: "Role", value: "Full Stack Engineer" },
             ].map((meta) => (
               <div key={meta.label} className="text-center">
                 <div className="text-base font-bold text-[var(--text)]">{meta.value}</div>
@@ -149,7 +148,7 @@ export function CaseStudySection() {
         {/* CTA */}
         <div className="mt-20 text-center">
           <a
-            href="https://project-ss-sable.vercel.app/"
+            href="https://headsuptech.in/"
             target="_blank"
             rel="noopener noreferrer"
             className="btn-primary inline-flex"

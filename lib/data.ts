@@ -118,7 +118,21 @@ export const SERVICES = [
 
 // ─── Projects ─────────────────────────────────────────────────────────────────
 
-export const PROJECTS = [
+export interface Project {
+  id: string;
+  title: string;
+  category: string;
+  url: string;
+  overview: string;
+  challenge: string;
+  solution: string;
+  technologies: string[];
+  outcome: string;
+  accentColor: string;
+  featured?: boolean;
+}
+
+export const PROJECTS: Project[] = [
   {
     id: "vault",
     title: "Vault Landing Page",
