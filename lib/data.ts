@@ -167,23 +167,6 @@ export const PROJECTS = [
       "Delivered a premium digital presence that positions the photographer as the go-to choice in their market.",
     accentColor: "from-purple-500/20 to-pink-500/10",
   },
-  {
-    id: "legal-website",
-    title: "Legal Website",
-    category: "Law Firm / Professional Services",
-    url: "https://project-ss-sable.vercel.app/",
-    overview:
-      "An enterprise-grade law firm website that establishes authority and generates qualified client inquiries.",
-    challenge:
-      "Law firm websites often feel outdated and fail to convert visitors. The challenge was to create something that felt premium, trustworthy, and modern.",
-    solution:
-      "Built a full-featured law firm website with practice areas, attorney profiles, case studies, and an optimized lead capture flow.",
-    technologies: ["Next.js", "TypeScript", "Tailwind CSS", "Framer Motion", "Vercel"],
-    outcome:
-      "Delivered a world-class digital presence that positions the firm as the premium choice in their practice areas.",
-    accentColor: "from-emerald-500/20 to-teal-500/10",
-    featured: true,
-  },
 ];
 
 // ─── Why Work With Me ─────────────────────────────────────────────────────────
